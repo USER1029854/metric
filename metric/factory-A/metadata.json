@@ -1,0 +1,114 @@
+{
+  "contract_name": "Metric legacy Pool Factory (factory-A)",
+  "address_all_chains": "0xe22F9fc0f04486dE25ed6CF1800a4a47aFD82e0C",
+  "deployment_method": "Deterministic CREATE2 (identical bytecode hash confirmed on every chain listed below)",
+  "bytecode_sha256": "467b36029be2285cb34cfb89ffd1f022810839de1bab09efc63c7061c405232c",
+  "runtime_bytecode_size_bytes": 3711,
+  "chains_deployed": [
+    "ethereum",
+    "base",
+    "arbitrum",
+    "bsc",
+    "avax",
+    "polygon",
+    "megaeth",
+    "hyperevm",
+    "monad",
+    "robinhood"
+  ],
+  "per_chain_findings": {
+    "ethereum": {
+      "address": "0xe22F9fc0f04486dE25ed6CF1800a4a47aFD82e0C",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {
+        "0xae7ab96520de3a18e5e111b5eaab095312d7fe84": 1
+      },
+      "erc20_balances_usd_total_approx": 0.0,
+      "verified_source": false
+    },
+    "base": {
+      "address": "0xe22F9fc0f04486dE25ed6CF1800a4a47aFD82e0C",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {},
+      "erc20_balances_usd_total_approx": 0,
+      "verified_source": false
+    },
+    "arbitrum": {
+      "address": "0xe22F9fc0f04486dE25ed6CF1800a4a47aFD82e0C",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {},
+      "erc20_balances_usd_total_approx": 0,
+      "verified_source": false
+    },
+    "bsc": {
+      "address": "0xe22F9fc0f04486dE25ed6CF1800a4a47aFD82e0C",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {},
+      "erc20_balances_usd_total_approx": 0,
+      "verified_source": false
+    },
+    "avax": {
+      "address": "0xe22F9fc0f04486dE25ed6CF1800a4a47aFD82e0C",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {},
+      "erc20_balances_usd_total_approx": 0,
+      "verified_source": false
+    },
+    "polygon": {
+      "address": "0xe22F9fc0f04486dE25ed6CF1800a4a47aFD82e0C",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {},
+      "erc20_balances_usd_total_approx": 0,
+      "verified_source": false
+    },
+    "megaeth": {
+      "address": "0xe22F9fc0f04486dE25ed6CF1800a4a47aFD82e0C",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {
+        "0x4200000000000000000000000000000000000006": 52649510366219407,
+        "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb": 112187126
+      },
+      "erc20_balances_usd_total_approx": 211.46,
+      "verified_source": false
+    },
+    "hyperevm": {
+      "address": "0xe22F9fc0f04486dE25ed6CF1800a4a47aFD82e0C",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {
+        "0xfd739d4e423301ce9385c1fb8850539d657c296d": 5228896590984674,
+        "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb": 21089,
+        "0xb88339cb7199b77e23db6e890353e22632ba630f": 4421086820,
+        "0x0f8e33f5cdefae9c2e59de8fb61fed347046d046": 249994406333675883,
+        "0x9fdbda0a5e284c32744d2f17ee5c74b284993463": 89027,
+        "0xb989ad9b91886b1aaed8daadb26f028b29b40945": 277848842850140031,
+        "0x000000000000780555bd0bca3791f89f9542c2d6": 964592189741782004536,
+        "0x5555555555555555555555555555555555555555": 59171835433269875885,
+        "0x13a81c5e8b4ab05fc721dff7ba95e250b29458f8": 979987940728715503
+      },
+      "erc20_balances_usd_total_approx": 8254.02,
+      "verified_source": false
+    },
+    "monad": {
+      "address": "0xe22F9fc0f04486dE25ed6CF1800a4a47aFD82e0C",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {},
+      "erc20_balances_usd_total_approx": 0,
+      "verified_source": false
+    },
+    "robinhood": {
+      "address": "0xe22F9fc0f04486dE25ed6CF1800a4a47aFD82e0C",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {},
+      "erc20_balances_usd_total_approx": 0,
+      "verified_source": false
+    }
+  },
+  "verification_status": "UNVERIFIED on every chain (checked via Etherscan V2 getsourcecode / Blockscout getsourcecode / Sourcify v2) as of research date",
+  "proxy_check": "Not a proxy - EIP-1967 implementation/admin/beacon slots all read as zero on Ethereum mainnet; decompiled bytecode shows plain storage-variable owner pattern, not delegatecall dispatch",
+  "role": "admin/governance + registry (pool factory / deployer, permissionless pool creation, protocol-fee sweep)",
+  "discovery_method": [
+    "Address extracted from DefiLlama-adapters GitHub repo (dimension-adapters/dexs/metric/utils.ts and dexs/metric-v1/utils.ts) which hardcodes the factory address per chain for volume tracking",
+    "Cross-checked deployment existence on EVERY DefiLlama-tracked chain (and Robinhood, which DefiLlama's TVL config omits) via eth_getCode RPC calls, not just the chains DefiLlama's dexs adapter happened to list",
+    "PoolCreated event logs enumerated on-chain via eth_getLogs (Etherscan V2 / Blockscout / Routescan / direct RPC depending on chain) from each chain's factory deployment block to latest"
+  ]
+}

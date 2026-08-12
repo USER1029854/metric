@@ -1,0 +1,296 @@
+[
+  {
+    "chain": "arbitrum",
+    "address": "0x2b7672aa254f563ebd567fa8277f52a05ebd0c65",
+    "is_contract": true,
+    "code_len": 7280,
+    "code_hash16": "c8ab8dac351d2180"
+  },
+  {
+    "chain": "arbitrum",
+    "address": "0x819ed09e5ab1470b9f4ec79dc2c4931af2c1d803",
+    "is_contract": true,
+    "code_len": 7280,
+    "code_hash16": "f1ce4f3324b37af6"
+  },
+  {
+    "chain": "arbitrum",
+    "address": "0x8c2d8f7567842de88e19be3658da73f821d62a63",
+    "is_contract": true,
+    "code_len": 9189,
+    "code_hash16": "5454fedcac4acd72"
+  },
+  {
+    "chain": "arbitrum",
+    "address": "0xf3b88c1f3cbc2eb15dd6d6c51b090799afcce567",
+    "is_contract": true,
+    "code_len": 7280,
+    "code_hash16": "07f97f7c6c3a811a"
+  },
+  {
+    "chain": "avax",
+    "address": "0x02e9edce025a5b90ba0bdbcac067e7aab9be74f4",
+    "is_contract": true,
+    "code_len": 6438,
+    "code_hash16": "03b8961b138f7a9f"
+  },
+  {
+    "chain": "avax",
+    "address": "0x11eb82074de46d537dc8e0e39d85f5509e8f0234",
+    "is_contract": true,
+    "code_len": 6438,
+    "code_hash16": "16e5d235b4b1a74e"
+  },
+  {
+    "chain": "avax",
+    "address": "0x63197731adcceddef90d8b445f95c0558d85678c",
+    "is_contract": true,
+    "code_len": 6438,
+    "code_hash16": "137603b5ca8cdcd7"
+  },
+  {
+    "chain": "base",
+    "address": "0x05af07e7fedc42999eb00c666d1a6c76c0806f0f",
+    "is_contract": false,
+    "code_len": 0,
+    "code_hash16": null
+  },
+  {
+    "chain": "base",
+    "address": "0x244b8e9de71cc2fbb2e1c42ba41ab17bc9358c4c",
+    "is_contract": true,
+    "code_len": 8205,
+    "code_hash16": "305faedda6d9584d"
+  },
+  {
+    "chain": "base",
+    "address": "0x353d8e918d1753736c8330503c756af1b6099bab",
+    "is_contract": true,
+    "code_len": 12707,
+    "code_hash16": "91a46f01a10abae3"
+  },
+  {
+    "chain": "base",
+    "address": "0x3dfc309ffa097ea7cafd896649f7faae9aafc959",
+    "is_contract": true,
+    "code_len": 8205,
+    "code_hash16": "3000416e4ad954f4"
+  },
+  {
+    "chain": "base",
+    "address": "0x616fd2689b7878727f8fd7923b8f6ef44b38553d",
+    "is_contract": true,
+    "code_len": 8996,
+    "code_hash16": "1a968300de0439fc"
+  },
+  {
+    "chain": "base",
+    "address": "0x650c0b2434e73b74907dda47293191bfb46fa977",
+    "is_contract": true,
+    "code_len": 11789,
+    "code_hash16": "c54cb1029bcaf744"
+  },
+  {
+    "chain": "base",
+    "address": "0x701759ce4a36e2baded203e83f8e35711d4f0996",
+    "is_contract": true,
+    "code_len": 13946,
+    "code_hash16": "b0ed1245438506d8"
+  },
+  {
+    "chain": "base",
+    "address": "0xae58d399432abb59bc45de8c04a0d60cdd575e0c",
+    "is_contract": true,
+    "code_len": 23,
+    "code_hash16": "8aad968130a4f44f"
+  },
+  {
+    "chain": "base",
+    "address": "0xbfb141d1f0253b1080289b9f945c0d92a8d75c79",
+    "is_contract": true,
+    "code_len": 8290,
+    "code_hash16": "9876b5a05fcc9dc6"
+  },
+  {
+    "chain": "base",
+    "address": "0xc1798269cf4af41a0f35d9e60ecd327380466edf",
+    "is_contract": true,
+    "code_len": 8205,
+    "code_hash16": "4112fb524ac839da"
+  },
+  {
+    "chain": "base",
+    "address": "0xd302ee23cd451fa753125d2350b5ebaa744091df",
+    "is_contract": true,
+    "code_len": 4930,
+    "code_hash16": "ba1f7dbab174e095"
+  },
+  {
+    "chain": "base",
+    "address": "0xd7da103699cf09c759bf7cbd6c4d42db706ab542",
+    "is_contract": false,
+    "code_len": 0,
+    "code_hash16": null
+  },
+  {
+    "chain": "base",
+    "address": "0xde0ae901fe81c82ce26d6cbdc671125e5fd8f8ae",
+    "is_contract": false,
+    "code_len": 0,
+    "code_hash16": null
+  },
+  {
+    "chain": "base",
+    "address": "0xf53c5408a830bab1fc8e749d850d0a7906dbcda1",
+    "is_contract": true,
+    "code_len": 14196,
+    "code_hash16": "cd666f2998ffe10a"
+  },
+  {
+    "chain": "base",
+    "address": "0xf7e4a2ed44facbe1490384f3108f54d705bdabd0",
+    "is_contract": true,
+    "code_len": 8205,
+    "code_hash16": "367d87b7426a1d07"
+  },
+  {
+    "chain": "ethereum",
+    "address": "0x41aadf53be066b77b9ac31e73e3f62980d254191",
+    "is_contract": true,
+    "code_len": 5961,
+    "code_hash16": "f4b30f0943ce9046"
+  },
+  {
+    "chain": "ethereum",
+    "address": "0xa175d15ac8e2626c749d18557bd602950d6a8998",
+    "is_contract": true,
+    "code_len": 6464,
+    "code_hash16": "efb3e1f88335b739"
+  },
+  {
+    "chain": "ethereum",
+    "address": "0xb859f4c6bed073f86f0ef3006a5fdd037c65b042",
+    "is_contract": true,
+    "code_len": 9482,
+    "code_hash16": "89523167a8de9b48"
+  },
+  {
+    "chain": "ethereum",
+    "address": "0xbc5484a99acfeade43e09404bcf672f3cd11ed03",
+    "is_contract": true,
+    "code_len": 9189,
+    "code_hash16": "b3d3a1b340714056"
+  },
+  {
+    "chain": "ethereum",
+    "address": "0xc707987ea4dddd45890b1b23af6badad6a0adcac",
+    "is_contract": true,
+    "code_len": 2538,
+    "code_hash16": "e4b5967dc90ddee9"
+  },
+  {
+    "chain": "ethereum",
+    "address": "0xf1540a540218a98411912f6d9f93d5d96d4e6539",
+    "is_contract": true,
+    "code_len": 12742,
+    "code_hash16": "cc80c24540d5eda7"
+  },
+  {
+    "chain": "hyperevm",
+    "address": "0x91481bff88c5cbd8a2e3fe5f83a6eed047b4cab3",
+    "is_contract": true,
+    "code_len": 12076,
+    "code_hash16": "52340396156ecaa6"
+  },
+  {
+    "chain": "hyperevm",
+    "address": "0x916a93913b112270f0e2b70b652918480d25f815",
+    "is_contract": true,
+    "code_len": 3731,
+    "code_hash16": "77f6e25f0b4f6532"
+  },
+  {
+    "chain": "hyperevm",
+    "address": "0xb6d0106927df2be6e44683a6e540ed60ec6c31b4",
+    "is_contract": true,
+    "code_len": 3015,
+    "code_hash16": "2ba31b9e600008ad"
+  },
+  {
+    "chain": "hyperevm",
+    "address": "0xdeee56068b8c0bd31beef845dc63995ea6eb316b",
+    "is_contract": true,
+    "code_len": 12076,
+    "code_hash16": "32439c22e38ada46"
+  },
+  {
+    "chain": "megaeth",
+    "address": "0x3a911762cf640b482e72fe53462419798c9ed591",
+    "is_contract": true,
+    "code_len": 2473,
+    "code_hash16": "75b9758c0a1161c4"
+  },
+  {
+    "chain": "megaeth",
+    "address": "0x908a41f1d3aa0c527db91d4891b57217094abcd0",
+    "is_contract": true,
+    "code_len": 2864,
+    "code_hash16": "63b2a78501fb6bc4"
+  },
+  {
+    "chain": "monad",
+    "address": "0x3a911762cf640b482e72fe53462419798c9ed591",
+    "is_contract": true,
+    "code_len": 2473,
+    "code_hash16": "7a76ec4cd05ba77f"
+  },
+  {
+    "chain": "monad",
+    "address": "0x6f3ad3ff7e95f08fe852d46ec8170b4aab225ef8",
+    "is_contract": true,
+    "code_len": 2473,
+    "code_hash16": "741fcb49a8ffdc72"
+  },
+  {
+    "chain": "monad",
+    "address": "0xf034c1d706e0939e6a5c64ea0fa98620b34964cf",
+    "is_contract": true,
+    "code_len": 2473,
+    "code_hash16": "bc450b0c3ff31484"
+  },
+  {
+    "chain": "polygon",
+    "address": "0x3f396eb3b3dc50a6024467c1e8147e63e43e2b7b",
+    "is_contract": true,
+    "code_len": 13461,
+    "code_hash16": "06f257df06ecdc9a"
+  },
+  {
+    "chain": "polygon",
+    "address": "0xf034c1d706e0939e6a5c64ea0fa98620b34964cf",
+    "is_contract": true,
+    "code_len": 2473,
+    "code_hash16": "80e5847a26f3ef10"
+  },
+  {
+    "chain": "robinhood",
+    "address": "0x05af07e7fedc42999eb00c666d1a6c76c0806f0f",
+    "is_contract": false,
+    "code_len": 0,
+    "code_hash16": null
+  },
+  {
+    "chain": "robinhood",
+    "address": "0xb1e4142db0257c35ccd2105699d1cc7250179117",
+    "is_contract": true,
+    "code_len": 13124,
+    "code_hash16": "34e8638c8f6b656a"
+  },
+  {
+    "chain": "robinhood",
+    "address": "0xde0ae901fe81c82ce26d6cbdc671125e5fd8f8ae",
+    "is_contract": false,
+    "code_len": 0,
+    "code_hash16": null
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "selector": "01c54a29",
+    "arguments": "address",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "123c6bcc",
+    "arguments": "address,uint24,uint24",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "158b67fa",
+    "arguments": "uint256",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "1666c8c9",
+    "arguments": "address",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "17de3c7e",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "1aa3e95d",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "22287cc2",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "237f4b66",
+    "arguments": "address,address,uint256",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "collectTokens(address,address,uint256)"
+    ]
+  },
+  {
+    "selector": "2d84eb5a",
+    "arguments": "address,address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "2e07158b",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "2f5bdcb1",
+    "arguments": "uint24,uint24,uint24,uint24",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "3119049a",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "poolDeployer()"
+    ]
+  },
+  {
+    "selector": "3dbaf18e",
+    "arguments": "address",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "3e9b7fdb",
+    "arguments": "address",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "466b3cab",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "47da6012",
+    "arguments": "address,int8,uint16,uint16",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "4b737da4",
+    "arguments": "address",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "51ecb026",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "55aca1ec",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "pausePool(address)"
+    ]
+  },
+  {
+    "selector": "5618e323",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "5685fc23",
+    "arguments": "uint256",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "5b16ebb7",
+    "arguments": "address",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "isPool(address)"
+    ]
+  },
+  {
+    "selector": "66f249eb",
+    "arguments": "address,uint24,uint24",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "6a226c1c",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "6c3eab47",
+    "arguments": "address",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "715018a6",
+    "arguments": "",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "renounceOwnership()"
+    ]
+  },
+  {
+    "selector": "749e3f7e",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "765d9ea7",
+    "arguments": "uint24",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "79ba5097",
+    "arguments": "",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "acceptOwnership()"
+    ]
+  },
+  {
+    "selector": "800887c5",
+    "arguments": "address,address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "810d36d9",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "nextPoolIdx()"
+    ]
+  },
+  {
+    "selector": "8da5cb5b",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "owner()",
+      "ideal_warn_timed(uint256,uint128)"
+    ]
+  },
+  {
+    "selector": "94e79d21",
+    "arguments": "uint24",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "98a5b1c4",
+    "arguments": "address",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "9d8eac6e",
+    "arguments": "address,address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "a23b0cbe",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "ac875089",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "ae8d1133",
+    "arguments": "address",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "b04a8cd9",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "bdb39668",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "ccacb126",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "e30c3978",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "pendingOwner()"
+    ]
+  },
+  {
+    "selector": "e7b61424",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "f21c38cd",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "unpausePool(address)"
+    ]
+  },
+  {
+    "selector": "f2fde38b",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "transferOwnership(address)",
+      "_SIMONdotBLACK_(int8[],uint256,address,bytes8,int96)"
+    ]
+  },
+  {
+    "selector": "f453573c",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "ff03ad56",
+    "arguments": "address,uint256",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  }
+]

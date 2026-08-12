@@ -1,0 +1,59 @@
+{
+  "contract_name": "Metric v1 Pool Factory (factory-B)",
+  "address_all_chains": "0x622911384e7973439b8be305f5e3Fc3c5736EDe4",
+  "deployment_method": "Deterministic CREATE2 (identical bytecode hash confirmed on every chain listed below)",
+  "bytecode_sha256": "6b1f0c37f96a307e6367577dad4b8a7abedecee7f0a7b1452744872d9aa324f8",
+  "runtime_bytecode_size_bytes": 16282,
+  "chains_deployed": [
+    "ethereum",
+    "base",
+    "arbitrum",
+    "hyperevm",
+    "robinhood"
+  ],
+  "per_chain_findings": {
+    "ethereum": {
+      "address": "0x622911384e7973439b8be305f5e3Fc3c5736EDe4",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {},
+      "erc20_balances_usd_total_approx": 0,
+      "verified_source": false
+    },
+    "base": {
+      "address": "0x622911384e7973439b8be305f5e3Fc3c5736EDe4",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {},
+      "erc20_balances_usd_total_approx": 0,
+      "verified_source": false
+    },
+    "arbitrum": {
+      "address": "0x622911384e7973439b8be305f5e3Fc3c5736EDe4",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {},
+      "erc20_balances_usd_total_approx": 0,
+      "verified_source": false
+    },
+    "hyperevm": {
+      "address": "0x622911384e7973439b8be305f5e3Fc3c5736EDe4",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {},
+      "erc20_balances_usd_total_approx": 0,
+      "verified_source": false
+    },
+    "robinhood": {
+      "address": "0x622911384e7973439b8be305f5e3Fc3c5736EDe4",
+      "native_balance_wei": 0,
+      "erc20_balances_raw": {},
+      "erc20_balances_usd_total_approx": 0,
+      "verified_source": false
+    }
+  },
+  "verification_status": "UNVERIFIED on every chain (checked via Etherscan V2 getsourcecode / Blockscout getsourcecode / Sourcify v2) as of research date",
+  "proxy_check": "Not a proxy - EIP-1967 implementation/admin/beacon slots all read as zero on Ethereum mainnet; decompiled bytecode shows plain storage-variable owner pattern, not delegatecall dispatch",
+  "role": "admin/governance + registry (pool factory / deployer, permissionless pool creation, protocol-fee sweep)",
+  "discovery_method": [
+    "Address extracted from DefiLlama-adapters GitHub repo (dimension-adapters/dexs/metric/utils.ts and dexs/metric-v1/utils.ts) which hardcodes the factory address per chain for volume tracking",
+    "Cross-checked deployment existence on EVERY DefiLlama-tracked chain (and Robinhood, which DefiLlama's TVL config omits) via eth_getCode RPC calls, not just the chains DefiLlama's dexs adapter happened to list",
+    "PoolCreated event logs enumerated on-chain via eth_getLogs (Etherscan V2 / Blockscout / Routescan / direct RPC depending on chain) from each chain's factory deployment block to latest"
+  ]
+}

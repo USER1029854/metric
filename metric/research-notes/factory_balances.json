@@ -1,0 +1,77 @@
+{
+  "factoryA_ethereum": {
+    "native_wei": 0,
+    "token_balances": {
+      "0xae7ab96520de3a18e5e111b5eaab095312d7fe84": 1
+    }
+  },
+  "factoryA_base": {
+    "native_wei": 0,
+    "token_balances": {}
+  },
+  "factoryA_arbitrum": {
+    "native_wei": 0,
+    "token_balances": {}
+  },
+  "factoryA_bsc": {
+    "native_wei": 0,
+    "token_balances": {}
+  },
+  "factoryA_avax": {
+    "native_wei": 0,
+    "token_balances": {}
+  },
+  "factoryA_polygon": {
+    "native_wei": 0,
+    "token_balances": {}
+  },
+  "factoryA_megaeth": {
+    "native_wei": 0,
+    "token_balances": {
+      "0x4200000000000000000000000000000000000006": 52649510366219407,
+      "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb": 112187126
+    }
+  },
+  "factoryA_hyperevm": {
+    "native_wei": 0,
+    "token_balances": {
+      "0xfd739d4e423301ce9385c1fb8850539d657c296d": 5228896590984674,
+      "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb": 21089,
+      "0xb88339cb7199b77e23db6e890353e22632ba630f": 4421086820,
+      "0x0f8e33f5cdefae9c2e59de8fb61fed347046d046": 249994406333675883,
+      "0x9fdbda0a5e284c32744d2f17ee5c74b284993463": 89027,
+      "0xb989ad9b91886b1aaed8daadb26f028b29b40945": 277848842850140031,
+      "0x000000000000780555bd0bca3791f89f9542c2d6": 964592189741782004536,
+      "0x5555555555555555555555555555555555555555": 59171835433269875885,
+      "0x13a81c5e8b4ab05fc721dff7ba95e250b29458f8": 979987940728715503
+    }
+  },
+  "factoryA_monad": {
+    "native_wei": 0,
+    "token_balances": {}
+  },
+  "factoryA_robinhood": {
+    "native_wei": 0,
+    "token_balances": {}
+  },
+  "factoryB_ethereum": {
+    "native_wei": 0,
+    "token_balances": {}
+  },
+  "factoryB_base": {
+    "native_wei": 0,
+    "token_balances": {}
+  },
+  "factoryB_arbitrum": {
+    "native_wei": 0,
+    "token_balances": {}
+  },
+  "factoryB_hyperevm": {
+    "native_wei": 0,
+    "token_balances": {}
+  },
+  "factoryB_robinhood": {
+    "native_wei": 0,
+    "token_balances": {}
+  }
+}
