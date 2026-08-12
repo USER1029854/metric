@@ -1,0 +1,86 @@
+[
+  {
+    "selector": "16c77efe",
+    "arguments": "uint24",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "1e2eaeaf",
+    "arguments": "uint256",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "extsload(bytes32)"
+    ]
+  },
+  {
+    "selector": "35fd631a",
+    "arguments": "uint256,uint256",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "extsload(bytes32,uint256)"
+    ]
+  },
+  {
+    "selector": "372aa224",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "setPriceProvider(address)"
+    ]
+  },
+  {
+    "selector": "43e280d4",
+    "arguments": "bool,int128,uint128,uint128,uint128",
+    "state_mutability": "view",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "7feedaa1",
+    "arguments": "uint24",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "a1af5b9a",
+    "arguments": "",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "collectProtocolFees()"
+    ]
+  },
+  {
+    "selector": "ac8bb7d9",
+    "arguments": "address,bool,int128,uint128,bytes",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "bcdb4dad",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "getImmutables()"
+    ]
+  },
+  {
+    "selector": "cedbbe1a",
+    "arguments": "uint80,(int16,int104)[],int128,int128",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "dbd035ff",
+    "arguments": "uint256[]",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "extsload(bytes32[])"
+    ]
+  },
+  {
+    "selector": "dfeeb560",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "selector": "1aa3e95d",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "237f4b66",
+    "arguments": "address,address,uint256",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "collectTokens(address,address,uint256)"
+    ]
+  },
+  {
+    "selector": "3119049a",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "poolDeployer()"
+    ]
+  },
+  {
+    "selector": "6c1104e5",
+    "arguments": "address,uint256",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "715018a6",
+    "arguments": "",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "renounceOwnership()"
+    ]
+  },
+  {
+    "selector": "79ba5097",
+    "arguments": "",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "acceptOwnership()"
+    ]
+  },
+  {
+    "selector": "8da5cb5b",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "owner()",
+      "ideal_warn_timed(uint256,uint128)"
+    ]
+  },
+  {
+    "selector": "9362624a",
+    "arguments": "uint256",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "b0e21e8a",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "protocolFee()"
+    ]
+  },
+  {
+    "selector": "b8ca3b83",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "MAX_PROTOCOL_FEE()"
+    ]
+  },
+  {
+    "selector": "e30c3978",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "pendingOwner()"
+    ]
+  },
+  {
+    "selector": "e3c3d650",
+    "arguments": "uint24",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "f2fde38b",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "transferOwnership(address)",
+      "_SIMONdotBLACK_(int8[],uint256,address,bytes8,int96)"
+    ]
+  }
+]

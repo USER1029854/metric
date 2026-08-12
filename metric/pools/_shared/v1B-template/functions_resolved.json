@@ -1,0 +1,108 @@
+[
+  {
+    "selector": "1e2eaeaf",
+    "arguments": "uint256",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "extsload(bytes32)"
+    ]
+  },
+  {
+    "selector": "35fd631a",
+    "arguments": "uint256,uint256",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "extsload(bytes32,uint256)"
+    ]
+  },
+  {
+    "selector": "372aa224",
+    "arguments": "address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "setPriceProvider(address)"
+    ]
+  },
+  {
+    "selector": "3ff20c8a",
+    "arguments": "uint8",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "setPause(uint8)"
+    ]
+  },
+  {
+    "selector": "5cced60b",
+    "arguments": "address,bool,int128,uint128,uint128,uint128,bytes",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "5d7cef55",
+    "arguments": "uint256,uint256,uint256,uint256,address",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "5dd9a4c5",
+    "arguments": "uint24,uint24",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": [
+      "setPoolFees(uint24,uint24)"
+    ]
+  },
+  {
+    "selector": "97962ef9",
+    "arguments": "address,uint80,(uint256[],uint256[]),bytes,bytes",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "bcdb4dad",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "getImmutables()"
+    ]
+  },
+  {
+    "selector": "d8306786",
+    "arguments": "",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "inSwap()"
+    ]
+  },
+  {
+    "selector": "dbd035ff",
+    "arguments": "uint256[]",
+    "state_mutability": "view",
+    "candidate_signatures": [
+      "extsload(bytes32[])"
+    ]
+  },
+  {
+    "selector": "e24f0884",
+    "arguments": "address,bool,int128,uint128,bytes,bytes",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "ec069057",
+    "arguments": "",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "f91e9c41",
+    "arguments": "int8,uint16,uint16",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  },
+  {
+    "selector": "fbde1732",
+    "arguments": "address,uint80,(uint256[],uint256[]),bytes",
+    "state_mutability": "nonpayable",
+    "candidate_signatures": []
+  }
+]

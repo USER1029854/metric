@@ -1,0 +1,35 @@
+{
+  "chain": "base",
+  "address": "0x501568a7c6d9257ded9506008de044565c68fd60",
+  "factory": "0x622911384e7973439b8be305f5e3Fc3c5736EDe4",
+  "factory_role_label": "Factory B (v1)",
+  "token0": {
+    "address": "0x4200000000000000000000000000000000000006",
+    "symbol": "WETH",
+    "balance_raw": 7161804885181563458,
+    "value_usd_approx": 13439.851514541457
+  },
+  "token1": {
+    "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "symbol": "USDC",
+    "balance_raw": 13151437139,
+    "value_usd_approx": 13145.536445729645
+  },
+  "total_value_usd_approx": 26585.39,
+  "creation_block": "0x2efc61c",
+  "creation_tx": "0xf9cb081cb9f2a074bc8c29dc90e538200c78534e21f3d8c482a2281a07ebaa35",
+  "priceProvider": "0xbfb141d1f0253b1080289b9f945c0d92a8d75c79",
+  "admin": "0x05af07e7fedc42999eb00c666d1a6c76c0806f0f",
+  "adminFeeDestination": "0xde0ae901fe81c82ce26d6cbdc671125e5fd8f8ae",
+  "extensions": [],
+  "verified_source": false,
+  "bytecode_sha256": "c01a9a2602f19d3a29005f54bc4a258e73e46c108e902e3a8b3f01b27634cb21",
+  "bytecode_size_bytes": 20392,
+  "decompiled_template_reference": "pools/_shared/v1B-template/decompiled.sol (identical logic; this instance differs only in embedded immutable constructor values -- token0/token1/factory/priceProvider addresses baked into bytecode, confirmed by matching length & differing hash)",
+  "role": "pool / vault (holds swap liquidity for this token pair)",
+  "discovery_method": [
+    "PoolCreated event decoded from factory 0x622911384e7973439b8be305f5e3Fc3c5736EDe4 eth_getLogs scan (topic0 matches the ABI-derived event selector computed locally)",
+    "token0/token1 taken directly from indexed event topics (legacy) or ABI-decoded event data (v1)",
+    "Balance computed via on-chain balanceOf(pool) eth_call for token0 and token1, priced via DefiLlama coins.llama.fi current-price API"
+  ]
+}

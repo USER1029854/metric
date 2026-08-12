@@ -1,0 +1,29 @@
+{
+  "found": [],
+  "errors": [
+    [
+      "OP Mainnet",
+      "10",
+      "A",
+      "Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis"
+    ],
+    [
+      "OP Mainnet",
+      "10",
+      "B",
+      "Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis"
+    ],
+    [
+      "Celo Mainnet",
+      "42220",
+      "A",
+      "Community Free API Limit reached. Resets 2026-08-13 00:00:00 UTC. For higher, uninterrupted limits, please upgrade to API Pro: https://etherscan.io/apis"
+    ],
+    [
+      "Celo Mainnet",
+      "42220",
+      "B",
+      "Community Free API Limit reached. Resets 2026-08-13 00:00:00 UTC. For higher, uninterrupted limits, please upgrade to API Pro: https://etherscan.io/apis"
+    ]
+  ]
+}
